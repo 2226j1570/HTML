@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e4e3e3;
+}
+
+header {
+  
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+li:hover{
+    color:white;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+.hero:hover{
+    background-image: url(./image/banner2.avif);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.hero button:hover{
+background-color: white;
+color: #007bff;
+}
+
+.categories, .featured, .sale, .top-picks, .brands, .latest-news {
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.categories h2, .top-picks h2, .brands h2, .latest-news h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.category-list, .product-list, .brand-list, .news-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category, .product, .brand, .news-item {
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.category img, .product img, .brand img, .news-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.featured{
+    display: flex;
+}
+.image{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    
+   border-radius: 13px 50px;
+   
+}
+.image:hover{
+    transform: skewY(10deg);
+  
+}
+.imagename{
+    text-align: center;
+    margin-top: -18px;
+    color: #000000;
+    
+}
+.imagename:hover{
+    color: white;
+}
+.image-list{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #dddfe261;
+    border-radius: 15px;
+}
+.sale{
+    font-size: xx-large;
+}
+.productof20{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+.image-20:hover{
+    transform: rotate(5deg);
+}
+
+.brand img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.brand img:hover{
+    transform: rotate(-30deg);
+}
+.product img{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px ;
+}
+.product-list img:hover{
+   transform: skew(10deg);
+}
+.category img{
+    border:10px  #6cabee6c;
+    border-style: groove;
+    border-radius: 20px;
+}
+.category img:hover{
+transform: scaleX(2);
+transform: scaleY(1.5);
+}
+h2{
+    margin-top: -45px;
+    color: #00538a;
+}
+.featured{
+    margin-top:-8%;
+}
+.news-item img:hover{
+    transform: scaleY(2);
+}
